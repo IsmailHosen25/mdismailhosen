@@ -57,7 +57,7 @@ export default function Header() {
             whileHover={{ scale: 1.1,color:textcolor}}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className={styles.name}>
-              <NavLink to="/mdismailhosen/" className={styles.name_link}>
+              <NavLink to="/" className={styles.name_link}>
                 // Md. Ismail Hosesn
               </NavLink>
             </motion.div>
@@ -80,7 +80,7 @@ export default function Header() {
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
                   <NavLink
-                    to="/mdismailhosen/about"
+                    to="/about"
                     className={`${styles.nav_link}`}
                   >
                     .about()
@@ -91,7 +91,7 @@ export default function Header() {
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
                   <NavLink
-                    to="/mdismailhosen/portfolio"
+                    to="/portfolio"
                     className={`${styles.nav_link}`}
                   >
                     .portfolio()
@@ -102,7 +102,7 @@ export default function Header() {
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
                   <NavLink
-                    to="/mdismailhosen/services"
+                    to="/services"
                     className={`${styles.nav_link} 
                     `}
            
@@ -115,7 +115,7 @@ export default function Header() {
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
                   <NavLink
-                    to="/mdismailhosen/contact"
+                    to="/contact"
                     className={`${styles.nav_link}`}
                   >
                     .contact()

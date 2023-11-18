@@ -154,7 +154,7 @@ export default function Home_services(props) {
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 whileTap={{scale:1.05}}
                 className={styles.see_more_btn} style={{color:"#fff"}}
-                onClick={()=>navigate("/mdismailhosen/services")}
+                onClick={()=>navigate("/services")}
                 >{`.( `}See More <FaCodeBranch/>{` )`}
       </motion.button>
     </>

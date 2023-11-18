@@ -30,14 +30,14 @@ function App() {
             <Prograss />
             <Mouse />
             <Routes>
-              <Route path="/mdismailhosen/" element={<Home />} />
-              <Route path="/mdismailhosen/about" element={<About />} />
-              <Route path="/mdismailhosen/contact" element={<Contact />} />
-              <Route path="/mdismailhosen/portfolio" element={<Portfolio />} />
-              <Route path="/mdismailhosen/services" element={<Services />} />
-              <Route path="/mdismailhosen/exp" element={<Exp />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/exp" element={<Exp />} />
               <Route
-                path="/mdismailhosen/hireme"
+                path="/hireme"
                 element={<Protecte Components={HireMe} />}
               />
               <Route path="*" element={<FourZF />} />
