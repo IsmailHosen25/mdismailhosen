@@ -1,0 +1,51 @@
+.nav_manuopen{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transform-origin: top;
+}
+.nav_manuopen_header{
+    width: 90%;
+    height: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0rem;
+}
+.name_link{
+    width: 30%;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #26A8FE;
+}
+
+.nav_link{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+ }
+.nav_link:hover{
+    color: #26A8FE;
+ }
+.manu_icon{
+    font-size: 2.2rem;
+    color:#26A8FE;
+}
+.ul{
+    width: 70%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.active{
+    color: #26A8FE;
+ }

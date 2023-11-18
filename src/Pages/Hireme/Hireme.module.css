@@ -1,0 +1,198 @@
+.sec_5{
+    width: 100%;
+    min-height: 100vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0rem 4rem 0rem;
+    position: relative;
+    z-index: 100;
+ }
+ .inner{
+    width:80%;
+    height: 100%;
+}
+ .sec_5 .in_sec5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+ }
+ .sec_5 .in_sec5 .left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:1.5rem;
+ }
+ .sec_5 .in_sec5 .left h1{
+    color: #26A8FE;
+    font-size: 4rem;
+ }
+ .sec_5 .in_sec5 .left .icon{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.2rem;
+    color: #26A8FE;
+ }
+ .sec_5 .in_sec5 .left .icon a{
+    text-decoration: none;
+    color: #fff;
+ }
+
+ .sec_5 .in_sec5 .left .social_media_icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:1rem;
+ }
+ .sec_5 .in_sec5 .left .social_media_icon a{
+       color: #26A8FE;
+       font-size: 2.5rem;
+       padding: 0.5rem;
+       transition: all 0.3s linear;
+       border-radius: 50%;
+ }
+ .sec_5 .in_sec5 .left .social_media_icon a:hover{
+    color: #fff;
+    transform: translateY(-3px);
+ }
+ .sec_5 .in_sec5 .right{
+    width: 48%;
+ }
+ 
+ .sec_5 .in_sec5 .left button{
+    padding: 1rem 3rem;
+    background-color: #26A8FE;
+    border: none;
+    color: #fff;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .sec_5 .in_sec5 .right form{
+    width: 100%;
+    padding: 3rem;
+    background-color: transparent;
+    color: #26A8FE;
+    border: 2px solid #26A8FE;
+    border-radius: 5px;
+ }
+ .sec_5 .in_sec5 .right form h2{
+ font-size: 3rem;
+ font-weight: 500;
+ color: #26A8FE;
+ }
+ 
+                       /* *****************Input Box****************** */
+  .sec_5 .in_sec5 .right form .input_box{
+     background-color:transparent;
+     margin-top: 1rem;
+     width: 100%;
+     position: relative;
+ }
+ .sec_5 .in_sec5 .right form input,textarea{
+    background-color: transparent;
+ }
+ .sec_5 .in_sec5 .right form .input_box input , textarea{
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    margin:1rem 0 ;
+    border: none;
+    border-bottom:2px solid #fff ;
+    outline: none;
+    resize: none;
+    color: #fff;
+ }
+ .sec_5 .in_sec5 .right form .input_box span{
+    position: absolute;
+    left: 0;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    margin:1rem 0 ;
+    pointer-events: none;
+    transition: 0.5s;
+    color:#666;
+ }
+ .sec_5 .in_sec5 .right form .input_box input:focus ~ span,
+ .sec_5 .in_sec5 .right form .input_box input:valid ~ span{
+    font-size: 1.2rem;
+    color:#26A8FE;
+    transform: translateY(-20px);
+ }
+ .sec_5 .in_sec5 .right form .input_box textarea:focus ~ span,
+ .sec_5 .in_sec5 .right form .input_box textarea:valid ~ span{
+    font-size: 1.2rem;
+     color:#26A8FE;
+     transform: translateY(-20px);
+ }
+ .sec_5 .in_sec5 .right form .submit_btn_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .select{
+   width: 100%;
+   background-color: transparent;
+   color: #26A8FE;
+   padding: 0.2rem 0;
+   font-size: 1.5rem;
+}
+.opservices{
+   font-size: 1.5rem;
+}
+.download_cvhire{
+
+   text-decoration: none;
+   font-size: 2.2rem;
+   color: #fff;
+   background-color: #26A8FE;
+   padding: 0.7rem 1.4rem;
+   margin-left: 0rem;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+ 
+                       /* *****************Submit Button****************** */
+ 
+ 
+ .sec_5 .in_sec5 .right form .input_box input[type="submit"]{
+    width: 100%;
+    background-color: #26A8FE;
+    color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.5rem;
+    transition: all 0.3s linear;
+    color: #fff;
+ }
+ .sec_5 .in_sec5 .right form .input_box input[type="submit"]:hover{
+    background-color: transparent;
+    outline: 1px solid #fff;
+    color: #26A8FE;
+ }
+@media (max-width:1200px) {
+    .sec_5 .in_sec5 .right{
+        width: 60%;
+    }
+}
+ @media screen  and (max-width:768px){
+    .sec_5 .in_sec5 .left{
+        width: 100%;
+    
+        margin-bottom: 9rem;
+     }
+     .sec_5 .in_sec5 .right{
+        width:100%;
+     }
+ }

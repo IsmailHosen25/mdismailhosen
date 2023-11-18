@@ -1,0 +1,40 @@
+.Portfolio_m{
+    position: relative;
+    z-index: 100;
+    overflow-x: hidden;
+}
+.in{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0rem;
+    position: relative;
+    z-index: 100;
+}
+.contactform{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 2rem 0rem 5rem 0 ;
+
+}
+.in_heading{
+    color: #fff;
+    font-size: 5rem;
+}
+@media (max-width:698px) {
+      .in_heading{
+        font-size: 4rem;
+    }
+} 
+@media (max-width:480px) {
+
+          .in_heading{
+            font-size: 3rem;
+        }
+} 

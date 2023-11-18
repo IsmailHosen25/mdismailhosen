@@ -1,0 +1,82 @@
+.my_team{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    background-color: transparent;
+}
+.service_team_waraper{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    background-color: transparent;
+}
+.team_card{
+    width: 35rem;
+    height: 43rem;
+    /* background: rgb(255, 255, 255,0.2); */
+    border: 1px solid rgb(255, 255, 255,0.3);
+    /* box-shadow: 0 4px 30px rgb(0, 0, 0,0.1); */
+    backdrop-filter:blur(2px);
+    border-radius: 8px;
+    transition: all 0.3s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    background-color: transparent;
+}
+.team_img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+.team_disc{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    color: #fff;
+}
+.team_disc h2{
+    font-size: 3rem;
+}
+.team_disc p{
+    font-size: 1.7rem;
+}
+.team_s_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.in_icon{
+    font-size: 2.5rem;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+.in_icon:hover{
+    padding: 0.5rem;
+    border: 1px solid #26A8FE;
+    border-radius: 1px;
+}
+.team_btn{
+    font-size: 1.5rem;
+    color: #26A8FE;
+    background-color: transparent;
+    padding: 0.54rem 1.5rem;
+    border-radius: 5px;
+}
+.team_btn:hover{
+    border: 1px solid #26A8FE;
+    transition: all 0.3s linear;
+}

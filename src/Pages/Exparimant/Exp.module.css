@@ -1,0 +1,82 @@
+.esp_card{
+    width: 100%;
+    min-height: 300vh !important;
+    background-color: transparent;
+    position: relative;
+    z-index: 100;
+  
+  }
+  .exp_card_sticky{
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 50vh !important;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+    align-items: center;
+    gap:2rem; 
+    padding: 2rem;
+  
+  }
+  .wrapper {
+        min-width: 100rem;
+        height: 40vh;
+        display: flex;
+        gap: 5rem;
+        border: 1px solid red;
+  }
+  
+  .exp_main_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .heading_Container{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-end;
+  
+  }
+  .heading_Container h1{
+     font-size: 4rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 0.5rem;
+     color: #26A8FE;
+  }
+  .heading_Container p{
+      font-size: 2rem;
+      color: #fff;
+  }
+  .textContainer {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 3rem;
+          text-align: left;
+  
+  }
+        
+  .textContainer h2 {
+          font-size: 5rem;
+  }
+        
+  .textContainer p {
+          color: #fff;
+          font-size: 20px;
+  
+  }
+  .textContainer button {
+          background-color: orange;
+          border: none;
+          border-radius: 10px;
+          padding: 10px;
+          width: 200px;
+          cursor: pointer;
+  }

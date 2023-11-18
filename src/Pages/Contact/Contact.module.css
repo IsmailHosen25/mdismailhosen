@@ -1,0 +1,37 @@
+.contact_m{
+    width: 100%;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    overflow-x:hidden ;
+}
+.contactform{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 2rem 0rem 5rem 0 ;
+
+}
+.in_heading{
+    color: #fff;
+    font-size: 5rem;
+}
+@media (max-width:698px) {
+      .in_heading{
+        font-size: 4rem;
+    }
+} 
+@media (max-width:480px) {
+
+          .in_heading{
+            font-size: 3rem;
+        }
+} 

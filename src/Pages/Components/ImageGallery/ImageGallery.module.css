@@ -1,0 +1,30 @@
+.ImageGallery{
+    width: 100%;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.imagecontainer{
+    width: 95%;
+}
+.lg-react-element {
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.imggalleryimg {
+    max-width: 100%;
+    display: block;
+    padding: 5px 0px;
+    border-radius: 20px;
+    transition: transform 0.2s;
+}
+
+.imggalleryimg:hover {
+    filter: opacity(.9);
+    transform: scale(1.01);
+}

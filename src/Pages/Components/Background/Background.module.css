@@ -1,0 +1,70 @@
+.background{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100vh;
+ z-index:1;
+ overflow: hidden;
+}
+.item{
+    color:#26A8FE;
+}
+.one{
+    position: absolute;
+    top:8rem;
+    right: 25rem;
+    width: 10rem;
+    height: 10rem;
+    opacity: 0.3;
+}
+.two{
+    position: absolute;
+    bottom:8rem;
+    right: 40rem;
+    width: 6rem;
+    height: 6rem;
+    opacity: 0.3;
+}
+.three{
+    position: absolute;
+    top:30rem;
+    left: 20rem;
+    width: 6rem;
+    height: 6rem;
+    rotate: -20deg;
+}
+.four{
+    position: absolute;
+    bottom:20rem;
+    left: 0rem;
+    width: 6rem;
+    height: 6rem;
+    rotate: 50deg;
+}
+.five{
+    position: absolute;
+    top:20rem;
+    left: 20rem;
+    width: 6rem;
+    height: 6rem;
+    rotate: 70deg;
+    opacity: 0.3;
+}
+.six{
+    position: absolute;
+    top:25rem;
+    right: 50rem;
+    width: 6rem;
+    height: 6rem;
+    rotate: 70deg;
+    opacity: 0.4;
+}
+.siven{
+    position: absolute;
+    bottom:23rem;
+    left: 25rem;
+    width: 6rem;
+    height: 6rem;
+    opacity: 0.3;
+}
