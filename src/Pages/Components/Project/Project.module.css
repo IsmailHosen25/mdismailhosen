@@ -8,6 +8,8 @@
     align-items: center;
     gap: 3rem;
     padding: 5rem;
+    position: relative;
+    z-index: 100;
 }
 .projects_heading{
     display: flex;
@@ -30,6 +32,8 @@
     justify-content: center;
     align-items: flex-start;
     gap: 1rem;
+    position: relative;
+    z-index: 100;
 }
 .exp_box h1{
     font-size: 2rem;

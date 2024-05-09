@@ -39,7 +39,7 @@
 .icon_var{
     color: #fff;
     position: relative;
-    z-index: 1000;
+    z-index: 990;
 }
 .icon_var:hover .icon_span{
     color: #fff;

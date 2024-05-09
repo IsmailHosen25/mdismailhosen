@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import styles from './Portfolio.module.css'
 import PageHeader from '../Components/PageHeade/PageHeader'
 import Footer from '../Components/Footer'
@@ -181,6 +182,9 @@ const portfotimeline=[{
 
 
 export default function Portfolio() {
+  useEffect(()=>{
+    window.scrollTo({top:0,behavior:"smooth"})
+  },[])
   return (
     <div className={styles.Portfolio_m}>
         <PageHeader title={".portfolio( )"} content={"I enjoy working with dedicated creatives from businesses that make the world beautiful"}/>

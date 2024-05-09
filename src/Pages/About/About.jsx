@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import styles from './About.module.css'
 import PageHeader from '../Components/PageHeade/PageHeader'
 import MySelf from '../Components/MySelf/MySelf'
@@ -8,6 +9,9 @@ import Education from '../Components/Education/Education'
 import ImageGallery from '../Components/ImageGallery/ImageGallery'
 
 export default function About() {
+  useEffect(()=>{
+    window.scrollTo({top:0,behavior:"smooth"})
+  },[])
   return (
     <div 
     className={styles.about_m}>

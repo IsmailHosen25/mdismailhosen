@@ -13,7 +13,7 @@ export const teams=[{
   },{
     name:"Rafi Sharkar",
     img:Rafi,
-    description:"hello This is Hasan",
+    description:"hello This is Rafi",
     linkedin:"https://www.linkedin.com/in/rafi-sharkar-a8992b1a9/",
     facbook:"https://www.facebook.com/rafi.sharkar.90",
     github:"https://github.com/Rafi-Sharkar"
@@ -21,7 +21,7 @@ export const teams=[{
   },{
     name:"Zidan",
     img:Zidan,
-    description:"hello This is Hasan",
+    description:"hello This is Zidan",
     linkedin:"https://www.linkedin.com/in/md-rafadin-islam-8375bb28b/",
     facbook:"https://www.facebook.com/rafadinislam.zidan",
     github:"https://www.linkedin.com/in/md-rafadin-islam-8375bb28b/",

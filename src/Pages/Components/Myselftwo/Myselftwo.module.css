@@ -18,6 +18,8 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 2rem;
+    position: relative;
+    z-index: 100;
 }
 .about_content .about_title
 {

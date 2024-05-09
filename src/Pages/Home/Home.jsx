@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import styles from "./Home.module.css";
 import { useRef } from "react";
 import {motion} from "framer-motion";
@@ -28,6 +29,9 @@ import Myselftwo from "../Components/Myselftwo/Myselftwo";
 import useColorCheanged from "../../useHook/useColorCheanged"
 import hasan from "../../assets/Hasan.jpg"
 export default function Home() {
+  useEffect(()=>{
+    window.scrollTo({top:0,behavior:"smooth"})
+  },[])
   const {colorChenged}=useColorCheanged()
   const ProjectItem=[
     {
