@@ -57,9 +57,9 @@ export default function Header() {
             whileHover={{ scale: 1.1,color:textcolor}}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className={styles.name}>
-              <NavLink to="/cv" className={styles.name_link}>
+              <Link to="/cv" className={styles.name_link}>
                 // Md. Ismail Hosesn
-              </NavLink>
+              </Link>
             </motion.div>
 
             <div className={styles.nav_manu}>

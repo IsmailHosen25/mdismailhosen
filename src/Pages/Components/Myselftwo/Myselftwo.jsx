@@ -117,9 +117,9 @@ export default function Myselftwo() {
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 whileTap={{ scale: 1.05 }}
               >
-                <a href={""} className={styles.download_cv} onClick={()=>navigate("/cv")}>
+                <div className={styles.download_cv} onClick={()=>navigate("/cv")}>
                   {`.( `}download CV {` )`} <AiOutlineDownload />
-                </a>
+                </div>
               </motion.div>
             </motion.div>
           </div>

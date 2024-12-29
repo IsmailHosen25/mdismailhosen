@@ -95,7 +95,7 @@ export default function ContactFinfo() {
               </div>
               <div className={styles.button}>
                 <input type="submit" className={styles.sub_btn} value="Send Now" />
-                <motion.a
+                <motion.div
                   whileHover={{
                     scale: 1.1,
                     color: "#26A8FE",
@@ -104,13 +104,13 @@ export default function ContactFinfo() {
                   }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                   whileTap={{ scale: 1.05 }}
-                  href={""}
+                  
                   onClick={()=>navigate("/cv")}
                   className={styles.download_cv}
                   style={{ color: "#fff" }}
                 >
                   {`.( `}download CV{` )`} <AiOutlineDownload />
-                </motion.a>
+                </motion.div>
               </div>
             </form>
           </div>
