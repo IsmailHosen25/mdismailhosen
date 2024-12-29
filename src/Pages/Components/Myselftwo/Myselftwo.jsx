@@ -1,15 +1,16 @@
 import styles from "./Myselftwo.module.css";
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import { motion,useInView,useScroll,useTransform } from "framer-motion";
 import ProgressBar from "@ramonak/react-progress-bar";
 import { MdDateRange, MdEmail, MdOutlineLocationOn } from "react-icons/md";
 import { BsPhone } from "react-icons/bs";
 import { AiOutlineDownload } from "react-icons/ai";
 import InHeading from "../In_heading/InHeading";
-import cv from "../../../assets/Md Ismail Hosen.pdf";
 import { duration } from "@mui/material";
 
 export default function Myselftwo() {
+    const navigate=useNavigate()
     const skillsec =useRef(null)
     const divemotion=useRef(null)
     const prgbarview=useInView(skillsec)
@@ -116,7 +117,7 @@ export default function Myselftwo() {
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 whileTap={{ scale: 1.05 }}
               >
-                <a href={cv} className={styles.download_cv} download>
+                <a href={""} className={styles.download_cv} onClick={()=>navigate("/cv")}>
                   {`.( `}download CV {` )`} <AiOutlineDownload />
                 </a>
               </motion.div>

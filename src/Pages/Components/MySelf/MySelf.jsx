@@ -1,7 +1,7 @@
 import styles from "./MySelf.module.css";
 import { motion, useInView } from "framer-motion";
 import hasanimg from "../../../assets/Hasan.jpg";
-import cv from "../../../assets/Md Ismail Hosen.pdf";
+import { useNavigate } from "react-router-dom";
 import { useEffect, useRef } from "react";
 
 import {
@@ -19,6 +19,7 @@ import css from "../../../assets/css.png";
 import js from "../../../assets/js.png";
 
 export default function MySelf() {
+  const navigate=useNavigate()
   const container = {
     hidden: { opacity: 1, scale: 0 },
     visible: {
@@ -139,7 +140,7 @@ export default function MySelf() {
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 whileTap={{ scale: 1.05 }}
               >
-                <a href={cv} className={styles.download_cv} download>
+                <a href={""} className={styles.download_cv} onClick={()=>navigate("/cv")}>
                   {`.( `}download CV {` )`} <AiOutlineDownload />
                 </a>
               </motion.div>

@@ -18,6 +18,7 @@ import HireMe from "./Pages/Hireme/HireMe";
 import Protecte from "./ProtectedRoute/Protecte";
 import HireContext from "./useContext/HireContext";
 import ColorCheangedProvider from "./useContext/ColorContext";
+import EmbedPdf from "./Pages/EmbedPdf/EmbedPdf"
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/services" element={<Services />} />
               <Route path="/exp" element={<Exp />} />
+              <Route path="/cv" element={<EmbedPdf />} />
               <Route
                 path="/hireme"
                 element={<Protecte Components={HireMe} />}

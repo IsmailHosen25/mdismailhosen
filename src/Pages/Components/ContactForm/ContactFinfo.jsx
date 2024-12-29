@@ -1,11 +1,10 @@
 import styles from "./ContactFinfo.module.css";
-
+import { useNavigate } from "react-router-dom";
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import keys from '../../../key'
 
 import { motion } from "framer-motion";
-import cv from "../../../assets/Md Ismail Hosen.pdf";
 import { BsTelephoneFill, BsFillSendFill, BsLinkedin } from "react-icons/bs";
 import {FiLinkedin} from "react-icons/fi"
 import { AiOutlineDownload } from "react-icons/ai";
@@ -16,6 +15,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 
 export default function ContactFinfo() {
+  const navigate=useNavigate()
   const form=useRef()
   const {values,handleChange,handleBlur,errors,handleSubmit,touched}=useFormik({
      initialValues:{
@@ -104,8 +104,8 @@ export default function ContactFinfo() {
                   }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                   whileTap={{ scale: 1.05 }}
-                  href={cv}
-                  download
+                  href={""}
+                  onClick={()=>navigate("/cv")}
                   className={styles.download_cv}
                   style={{ color: "#fff" }}
                 >
