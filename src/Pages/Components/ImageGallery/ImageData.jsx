@@ -9,8 +9,13 @@ import SocSci from "../../../assets/ImageGallery/socialScience.jpg"
 import RcCar from "../../../assets/ImageGallery/RCCar.jpg"
 import durbin from "../../../assets/ImageGallery/durbin.jpg"
 import moon from "../../../assets/ImageGallery/moon.jpg"
+import fruits_grading_imgpro from "../../../assets/ImageGallery/fruits_grading_imgpro.jpg"
+import electronics_satellite from "../../../assets/ImageGallery/electronics_satellite.jpg"
+import electronics_satellite1 from "../../../assets/ImageGallery/electronics_satellite1.jpg"
 const imagesdata=[
-
+    { src: fruits_grading_imgpro, alt: "fruits grading using image processing" },
+    { src: electronics_satellite, alt: "iub electronics satellite project" },
+    { src: electronics_satellite1, alt: "iub electronics satellite project" },
     { src: soccerbot2, alt: "Chittagong science carnival 3.0" },
     { src: karate, alt: "Karate training" },
     { src: chess, alt: "playing Chess", },
